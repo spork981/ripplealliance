@@ -3,6 +3,7 @@
 var path = require('path');
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 80;
 
 // Log the requests
 app.use(express.logger('dev'));
@@ -16,5 +17,5 @@ app.get('*', function(req, res){
 });
 
 // Fire it up!
-app.listen(80);
+app.listen(port);
 console.log('Listening on port 80');
