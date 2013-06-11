@@ -1,0 +1,68 @@
+body, html {
+    background:#444;
+    background-image:url('stripes.gif');
+    background-repeat:both;
+    padding:0;
+    margin:0;
+} 
+
+#nav {
+    top:0;
+    position:absolute;
+    text-decoration:none;
+    margin-top:-0.8em;
+    padding-bottom:0.2em;
+    float:left;
+    width:100%;
+    background:#DDD;
+}
+
+#nav ul {
+    list-style:none;
+}
+
+#nav ul li a {
+    float:left;
+    width:6em;
+    text-align:center;
+    text-decoration:none;
+    padding: 1em;
+    margin-right:7%;
+    border:1px solid #888;
+    border-radius:4px;
+    transition: all .15s ease-in-out;
+}
+
+#nav ul li a:hover {
+    background:#55F;
+    color:#FFF;
+}
+
+#main {
+    background:#FFF;
+    padding:0.5em 2em;
+    margin:0 2em;
+    margin-top:4em;
+    border-radius:3px;
+    box-shadow:1px 3px 4px #000;
+}
+
+#infobox {
+    float:right;
+    border:1px solid #888;
+    width:30%;
+    padding:0.5em;
+    text-align:center;
+    transition: border .15s ease-in-out;
+}
+
+#infobox:hover {
+    border:1px solid #000;
+}
+
+#footer {
+    text-align:center;
+    padding-top:0.3em;
+    border-top:1px solid #AAA;
+    color:#888;
+}
